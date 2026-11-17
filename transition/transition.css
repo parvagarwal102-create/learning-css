@@ -1,13 +1,30 @@
-#div1{
+div{
     width: 400px;
     height: 400px;
     background-color: blue;
-    transition: width 2s, height 2s, background-color 2s;
+    transition: width 2s,height 2s,transform 2s;
+    
+   
+    
 }
-#div1:hover{
+
+#div1{
+    transition-timing-function: linear;
+}
+#div2{
+    transition-timing-function: ease;
+}
+#div3{
+    transition-timing-function: ease-out;
+}
+#div4{
+    transition-timing-function: ease-in-out;
+}
+div:hover{
     background-color: red;
     width: 800px;
     height:200px;
+    transform: rotate(180deg);
   
    
 
