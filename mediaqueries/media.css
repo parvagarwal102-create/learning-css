@@ -2,17 +2,17 @@
   box-sizing: border-box;
 }
 div{
-    background-color: blue;
+    background-color: red;
     width: 400px;
     height: 400px;
 }
 @media(min-width: 600px){
    div{
-    background-color: red;
+    background-color: yellow;
 }
    } 
 @media(min-width: 760px){
     div{
-        background-color: black;
+        background-color: blue;
     }
 }
